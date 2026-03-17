@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="readme first version">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_7/block1-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_7/first.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_7/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_7/test2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/LAB_7/block3-4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +26,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FadeDrag0n&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FadeDrag0n/Python_Practice.git&quot;,
+    &quot;accountId&quot;: &quot;653ed53b-79cc-40fc-86f6-16afc8009d27&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3B4LM8LR5hxM2V7wzWg8cCaljIO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,14 +49,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.block1-2.executor": "Run",
+    "Python.block3-4.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/FadeDragon/Desktop/Python_Practice/Labs/LAB_7"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FadeDragon\Desktop\Python_Practice\Labs\LAB_7" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\FadeDragon\Desktop\Python_Practice\Labs\LAB_7" />
       <recent name="C:\Users\FadeDragon\Desktop\Python_Practice" />
     </key>
   </component>
@@ -65,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773755885223</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="readme first version">
+      <option name="closed" value="true" />
+      <created>1773756119962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773756119962</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
