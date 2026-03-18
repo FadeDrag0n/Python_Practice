@@ -2,11 +2,11 @@ class Restaurant:
 
     def __init__(self, restaurant_name, cuisine_type):
         self.restaurant_name = restaurant_name
-        self.cousin_type = cuisine_type
+        self.cuisine_type = cuisine_type
         self.number_served = 0
 
     def describe_restaurant(self):
-        print(f'Restaurant : {self.restaurant_name} opens with {self.cousin_type}')
+        print(f'Restaurant : {self.restaurant_name} opens with {self.cuisine_type}')
 
     def open_restaurant(self):
         print(f'{self.restaurant_name} is open')
@@ -39,9 +39,33 @@ class User:
     def reset_login_attempts(self):
         self.login_attempts = 0
 
+
+class IceCreamStand(Restaurant):
+
+    def __init__(self, restaurant_name, cuisine_type, flavor):
+        super().__init__(restaurant_name, cuisine_type)
+        self.flavor = flavor
+
+    def get_flavor(self):
+        print(self.flavor)
+
+
+class Privileges:
+    def __init__(self, privileges):
+        self.privileges = privileges
+    def show_privileges(self):
+        print("Privileges:", ", ".join(self.privileges))
+
+class Admin(User):
+
+    def __init__(self, first_name, last_name, login, password, privileges):
+        super().__init__(first_name, last_name, login, password)
+        self.privileges = Privileges(privileges)
+
+
 restaurant1 = Restaurant('William place', 'Japanese')
 print(restaurant1.restaurant_name)
-print(restaurant1.cousin_type)
+print(restaurant1.cuisine_type)
 restaurant1.describe_restaurant()
 restaurant1.open_restaurant()
 restaurant2 = Restaurant('Wild Savanna', 'Mexican')
@@ -72,3 +96,11 @@ user3.increment_login_attempts()
 print(user3.login_attempts)
 user3.reset_login_attempts()
 print(user3.login_attempts)
+
+#9.6 - 9.8
+
+icecream1 = IceCreamStand('Ice Cream', 'ice cream', 'Chocolate')
+icecream1.get_flavor()
+
+admin1 = Admin('Olga', 'Polovyk', 'admin', '425332345524451', ['Can remove users', 'Can create orders'])
+admin1.privileges.show_privileges()
