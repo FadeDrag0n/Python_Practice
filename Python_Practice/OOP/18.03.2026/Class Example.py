@@ -1,22 +1,43 @@
 class Restaurant:
+
     def __init__(self, restaurant_name, cuisine_type):
         self.restaurant_name = restaurant_name
         self.cousin_type = cuisine_type
+        self.number_served = 0
+
     def describe_restaurant(self):
         print(f'Restaurant : {self.restaurant_name} opens with {self.cousin_type}')
+
     def open_restaurant(self):
         print(f'{self.restaurant_name} is open')
 
+    def set_number_served(self, number_served):
+        self.number_served = number_served
+
+    def increment_number_served(self, number_served):
+        self.number_served += number_served
+
+
 class User:
-    def __init__(self, first_name, last_name, login, password):
+
+    def __init__(self, first_name, last_name, login, password, login_attempts=0):
         self.first_name = first_name
         self.last_name = last_name
         self.login = login
         self.password = password
+        self.login_attempts = login_attempts
+
     def describe_user(self):
         print(f'{self.first_name} {self.last_name} {self.login} {self.password}')
+
     def greet_user(self):
         print(f'Hello {self.first_name} {self.last_name}')
+
+    def increment_login_attempts(self):
+        self.login_attempts += 1
+
+    def reset_login_attempts(self):
+        self.login_attempts = 0
 
 restaurant1 = Restaurant('William place', 'Japanese')
 print(restaurant1.restaurant_name)
@@ -33,3 +54,21 @@ user1.describe_user()
 user1.greet_user()
 user2.greet_user()
 user2.describe_user()
+
+#9.4
+restaurant4 = Restaurant('Russian Classic', 'Russian')
+print(restaurant4.number_served)
+restaurant4.number_served = 15
+print(restaurant4.number_served)
+restaurant4.set_number_served(150)
+print(restaurant4.number_served)
+restaurant4.increment_number_served(20)
+print(restaurant4.number_served)
+
+#9.5
+user3 = User('admin', 'admin', 'admin', '19-2340gtquweap')
+print(user3.login_attempts)
+user3.increment_login_attempts()
+print(user3.login_attempts)
+user3.reset_login_attempts()
+print(user3.login_attempts)
