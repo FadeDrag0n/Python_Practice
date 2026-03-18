@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="readme first version">
-      <change afterPath="$PROJECT_DIR$/Labs/LAB_7/block1-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/LAB_7/first.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/LAB_7/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/LAB_7/test2.json" afterDir="false" />
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="LR7 - done">
+      <change afterPath="$PROJECT_DIR$/Python_Practice/OOP/18.03.2026/Class Example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/LAB_7/block3-4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Class Example.executor": "Run",
     "Python.block1-2.executor": "Run",
     "Python.block3-4.executor": "Run",
     "Python.main.executor": "Run",
@@ -64,8 +61,8 @@
       <recent name="C:\Users\FadeDragon\Desktop\Python_Practice\Labs\LAB_7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\FadeDragon\Desktop\Python_Practice\Labs\LAB_7" />
       <recent name="C:\Users\FadeDragon\Desktop\Python_Practice" />
+      <recent name="C:\Users\FadeDragon\Desktop\Python_Practice\Labs\LAB_7" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -99,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773756119962</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="LR7 - done">
+      <option name="closed" value="true" />
+      <created>1773767273357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773767273357</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="readme first version" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme first version" />
+    <MESSAGE value="LR7 - done" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR7 - done" />
   </component>
 </project>

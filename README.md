@@ -1,6 +1,7 @@
-# This repository is created for learning Python and consists of 2 subprojects:
+# This repository is created for learning Python and consists of 3 subprojects:
 - ### Labs
-- ### ProjectEuler
+- ### Project Euler
+- ### Python Practice
 --------
 ## Labs:
 
@@ -20,7 +21,11 @@
 |:------|:-----------------------------:|-----------------:|
 | 1-100 |              🞩               |   in progress... |
 
+## Python Practice:
+> ### Practice block contains code that I wrote while learning Python. The code is divided by topics, such as OOP, asyncio.
+
+
 ## How to run
 
 ```shell
-python main.py
+python file_name.py
