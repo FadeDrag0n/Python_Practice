@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="OOP RPG - done">
-      <change afterPath="$PROJECT_DIR$/Project_Euler/1-100/4 - Largest Palindrome Product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/test.py" afterDir="false" />
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="Euler 4 - done">
+      <change afterPath="$PROJECT_DIR$/Project_Euler/1-100/5 - Smallest Multiple.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/Equipment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/Equipment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +48,7 @@
     "Python.2 - Even Fibonacci Numbers.executor": "Run",
     "Python.3 - Largest Prime Factor.executor": "Run",
     "Python.4 - Largest Palindrome Product.executor": "Run",
+    "Python.5 - Smallest Multiple.executor": "Run",
     "Python.Character.executor": "Run",
     "Python.Class Example.executor": "Run",
     "Python.Classes.executor": "Run",
@@ -166,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773931572064</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Euler 4 - done">
+      <option name="closed" value="true" />
+      <created>1773951173363</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1773951173363</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +194,7 @@
     <MESSAGE value="9.6 - 9.8 - done" />
     <MESSAGE value="Project Euler 1-3 - done" />
     <MESSAGE value="OOP RPG - done" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP RPG - done" />
+    <MESSAGE value="Euler 4 - done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Euler 4 - done" />
   </component>
 </project>
