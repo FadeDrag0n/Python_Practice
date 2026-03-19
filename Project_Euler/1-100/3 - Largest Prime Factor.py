@@ -1,5 +1,7 @@
-import math
+# import math
+import time
 
+start_time = time.perf_counter()
 
 # ХУЙНЯ ПОЛНАЯ БУДЕТ ВЫПОЛНЯТЬ ЗАДАЧУ МИЛЛИАРДЫ ЛЕТ
 
@@ -22,16 +24,19 @@ def largest_prime_factor(n):
     while d * d <= n:
         while n % d == 0:
             largest = d
-            n //= d
+            n = n // d
         d += 1
     if n > 1:
         largest = n  # n само является простым
-    return largest if largest else f'{n} не имеет простых делителей'
+    return largest
 
 def main():
     n1 = 13195
     n = 600851475143
     print(f'largest prime factor of {n} is - {largest_prime_factor(n)}')
+    end_time = time.perf_counter()
+    elapsed_time = end_time - start_time
+    print(f"Программа выполнилась за {elapsed_time:.6f} секунд")
 
 if __name__ == '__main__':
     main()
