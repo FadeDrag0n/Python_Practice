@@ -3,9 +3,8 @@ import Classes
 
 if __name__ == '__main__':
 
-    #mythril_armor = Equipment.Armor('Mythril Armor', 5000, 50) Example of creating new armor
-
     alina = Classes.Warrior('Alina')
+
     volodymyr = Classes.Archer('Volodymyr')
     nata = Classes.Mage('Nata')
 
@@ -15,6 +14,12 @@ if __name__ == '__main__':
 
     alina.equip_bronze()
     volodymyr.equip_bronze()
-    nata.equip_bronze()
+    nata.armor = Equipment.Armor('Mythril Armor', 5000, 100)
+    nata.weapon = Equipment.mythril_sword
+    nata.fight(volodymyr)
 
-    alina.fight(nata)
+
+
+
+
+

@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="Project Euler 1-3 - done">
-      <change afterPath="$PROJECT_DIR$/Python_Practice/OOP/18.03.2026/car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/OOP/18.03.2026/my_car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/OOP/19.03.2026/random_practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/Character.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/Classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/Equipment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/main.py" afterDir="false" />
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="OOP RPG - done">
+      <change afterPath="$PROJECT_DIR$/Project_Euler/1-100/4 - Largest Palindrome Product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Euler/1-100/3 - Largest Prime Factor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_Euler/1-100/3 - Largest Prime Factor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/Equipment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/Equipment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +50,7 @@
     "Python.1 - Multiples of 3 or 5.executor": "Run",
     "Python.2 - Even Fibonacci Numbers.executor": "Run",
     "Python.3 - Largest Prime Factor.executor": "Run",
+    "Python.4 - Largest Palindrome Product.executor": "Run",
     "Python.Character.executor": "Run",
     "Python.Class Example.executor": "Run",
     "Python.Classes.executor": "Run",
@@ -65,6 +62,7 @@
     "Python.main.executor": "Run",
     "Python.my_car.executor": "Run",
     "Python.random_practice.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -160,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773874019134</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="OOP RPG - done">
+      <option name="closed" value="true" />
+      <created>1773931572064</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1773931572064</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +187,7 @@
     <MESSAGE value="9.4 9.5 - done" />
     <MESSAGE value="9.6 - 9.8 - done" />
     <MESSAGE value="Project Euler 1-3 - done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Euler 1-3 - done" />
+    <MESSAGE value="OOP RPG - done" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP RPG - done" />
   </component>
 </project>
