@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="Euler 5 - done">
-      <change afterPath="$PROJECT_DIR$/Python_Practice/Async_Practice/asyncio/practice_1_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/Async_Practice/asyncio/practice_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/Async_Practice/asyncio/practice_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/Async_Practice/asyncio/practice_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/Async_Practice/generators/yield practice.py" afterDir="false" />
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="yeild and asyncio practice">
+      <change afterPath="$PROJECT_DIR$/Project_Euler/1-100/6 - Sum Square Difference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project_Euler/1-100/7 - 10 001st Prime.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +50,8 @@
     "Python.3 - Largest Prime Factor.executor": "Run",
     "Python.4 - Largest Palindrome Product.executor": "Run",
     "Python.5 - Smallest Multiple.executor": "Run",
+    "Python.6 - Sum Square Difference.executor": "Run",
+    "Python.7 - 10 001st Prime.executor": "Run",
     "Python.Character.executor": "Run",
     "Python.Class Example.executor": "Run",
     "Python.Classes.executor": "Run",
@@ -190,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773955496373</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="yeild and asyncio practice">
+      <option name="closed" value="true" />
+      <created>1774019279540</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1774019279540</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +221,7 @@
     <MESSAGE value="OOP RPG - done" />
     <MESSAGE value="Euler 4 - done" />
     <MESSAGE value="Euler 5 - done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Euler 5 - done" />
+    <MESSAGE value="yeild and asyncio practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="yeild and asyncio practice" />
   </component>
 </project>
