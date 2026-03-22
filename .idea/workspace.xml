@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="67 - done">
-      <change afterPath="$PROJECT_DIR$/Python_Practice/Async_Practice/asyncio/practice_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/Async_Practice/asyncio/server_immitation.py" afterDir="false" />
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="asyncio practice">
+      <change afterPath="$PROJECT_DIR$/Python_Practice/Async_Practice/asyncio/practice_semaphore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practice/another/vova.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practice/deco_practice/limit_deco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practice/deco_practice/limit_deco_ai.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practice/deco_practice/log_func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +65,9 @@
     "Python.car.executor": "Run",
     "Python.electric_car_class.executor": "Run",
     "Python.find_67.executor": "Run",
+    "Python.limit_deco.executor": "Run",
+    "Python.limit_deco_ai.executor": "Run",
+    "Python.log_func.executor": "Run",
     "Python.main.executor": "Run",
     "Python.my_car.executor": "Run",
     "Python.practice_1.executor": "Run",
@@ -68,9 +75,11 @@
     "Python.practice_4.executor": "Run",
     "Python.practice_5.executor": "Run",
     "Python.practice_6.executor": "Run",
+    "Python.practice_semaphore.executor": "Run",
     "Python.random_practice.executor": "Run",
     "Python.server_immitation.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.vova.executor": "Run",
     "Python.yield practice.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -246,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774033582913</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="asyncio practice">
+      <option name="closed" value="true" />
+      <created>1774091016110</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1774091016110</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +290,7 @@
     <MESSAGE value="yeild and asyncio practice" />
     <MESSAGE value="6 7 Euler - done" />
     <MESSAGE value="67 - done" />
-    <option name="LAST_COMMIT_MESSAGE" value="67 - done" />
+    <MESSAGE value="asyncio practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="asyncio practice" />
   </component>
 </project>
