@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="asyncio practice">
-      <change afterPath="$PROJECT_DIR$/Python_Practice/Async_Practice/asyncio/practice_semaphore.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/another/vova.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/deco_practice/limit_deco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/deco_practice/limit_deco_ai.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Practice/deco_practice/log_func.py" afterDir="false" />
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="dec practice">
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_8/lab8_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_8/lab8_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_8/my_package/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_8/my_package/choose_better.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_8/my_package/func_mul_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_8/my_package/safe_int_input.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practice/OOP/OOP_RPG/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +65,8 @@
     "Python.car.executor": "Run",
     "Python.electric_car_class.executor": "Run",
     "Python.find_67.executor": "Run",
+    "Python.lab8_1.executor": "Run",
+    "Python.lab8_2.executor": "Run",
     "Python.limit_deco.executor": "Run",
     "Python.limit_deco_ai.executor": "Run",
     "Python.log_func.executor": "Run",
@@ -263,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774091016110</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="dec practice">
+      <option name="closed" value="true" />
+      <created>1774184217121</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1774184217121</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +301,7 @@
     <MESSAGE value="6 7 Euler - done" />
     <MESSAGE value="67 - done" />
     <MESSAGE value="asyncio practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="asyncio practice" />
+    <MESSAGE value="dec practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="dec practice" />
   </component>
 </project>
