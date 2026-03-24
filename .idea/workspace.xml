@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="task and task manager - v1.1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practice/OOP/ToDoList/Task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practice/OOP/ToDoList/Task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practice/OOP/ToDoList/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practice/OOP/ToDoList/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="task and task manager - v1.1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,51 +38,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.1 - Multiples of 3 or 5.executor": "Run",
-    "Python.2 - Even Fibonacci Numbers.executor": "Run",
-    "Python.3 - Largest Prime Factor.executor": "Run",
-    "Python.4 - Largest Palindrome Product.executor": "Run",
-    "Python.5 - Smallest Multiple.executor": "Run",
-    "Python.6 - Sum Square Difference.executor": "Run",
-    "Python.7 - 10 001st Prime.executor": "Run",
-    "Python.Character.executor": "Run",
-    "Python.Class Example.executor": "Run",
-    "Python.Classes.executor": "Run",
-    "Python.Equipment.executor": "Run",
-    "Python.Task.executor": "Run",
-    "Python.block1-2.executor": "Run",
-    "Python.block3-4.executor": "Run",
-    "Python.car.executor": "Run",
-    "Python.electric_car_class.executor": "Run",
-    "Python.find_67.executor": "Run",
-    "Python.lab8_1.executor": "Run",
-    "Python.lab8_2.executor": "Run",
-    "Python.limit_deco.executor": "Run",
-    "Python.limit_deco_ai.executor": "Run",
-    "Python.log_func.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.my_car.executor": "Run",
-    "Python.practice_1.executor": "Run",
-    "Python.practice_3.executor": "Run",
-    "Python.practice_4.executor": "Run",
-    "Python.practice_5.executor": "Run",
-    "Python.practice_6.executor": "Run",
-    "Python.practice_semaphore.executor": "Run",
-    "Python.random_practice.executor": "Run",
-    "Python.server_immitation.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.vova.executor": "Run",
-    "Python.yield practice.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/FadeDragon/Desktop/Python_Practice/Labs/LAB_7"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.1 - Multiples of 3 or 5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2 - Even Fibonacci Numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3 - Largest Prime Factor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4 - Largest Palindrome Product.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5 - Smallest Multiple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6 - Sum Square Difference.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7 - 10 001st Prime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Character.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Class Example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Classes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Equipment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task.executor&quot;: &quot;Run&quot;,
+    &quot;Python.block1-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.block3-4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.car.executor&quot;: &quot;Run&quot;,
+    &quot;Python.electric_car_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_67.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab8_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab8_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.limit_deco.executor&quot;: &quot;Run&quot;,
+    &quot;Python.limit_deco_ai.executor&quot;: &quot;Run&quot;,
+    &quot;Python.log_func.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_car.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_semaphore.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server_immitation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vova.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yield practice.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/FadeDragon/Desktop/Python_Practice/Labs/LAB_7&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\FadeDragon\Desktop\Python_Practice\Labs\LAB_7" />
@@ -111,6 +110,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Practice/Async_Practice/asyncio/practice_6.py" />
       <option name="PARAMETERS" value="" />
@@ -130,7 +130,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-ca5e2b39c7df-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.308" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.31033.139" />
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
       </set>
     </attachedChunks>
   </component>
@@ -141,6 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773743345546</updated>
+      <workItem from="1774365653121" duration="93000" />
     </task>
     <task id="LOCAL-00001" summary="readme first version">
       <option name="closed" value="true" />
@@ -296,6 +298,9 @@
     </task>
     <option name="localTasksCounter" value="20" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
