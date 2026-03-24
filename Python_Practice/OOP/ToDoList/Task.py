@@ -1,10 +1,10 @@
 from datetime import datetime
 import textwrap
 
-def safe_priority_input():
+def safe_priority_input(prompt):
     while True:
         try:
-            res = int(input('Enter priority for your task: '))
+            res = int(input(prompt))
             if 0 <= res <= 10:
                 return res
             else:
@@ -24,19 +24,65 @@ class Task:
         return (f'Name: {self.name} | Priority: {self.priority} '
                 f'| Description: {self.description[:10]}... | Date: {date_field}')
 
+    def print_description(self):
+        print(textwrap.fill(f'{self.name} -> {self.description}\n', width=40))
+
+    def edit_task(self):
+        while True:
+            option = input(
+                f'Choose what you want to change in {self.name} | 1 - Name | 2 - Priority | 3 - Description | 4 - See full description | 0 - Cancel ')
+            match option:
+                case '0':
+                    print('Cancelling...\n')
+                    return
+                case '1':
+                    n = input(f'Choose new name for {self.name}: ')
+                    self.name = n
+                    print(f'New name successfully changed to {self.name}\n')
+                    return
+                case '2':
+                    p = safe_priority_input(f'Choose new priority for {self.name}: ')
+                    self.priority = p
+                    print(f'New priority successfully changed to {self.priority}\n')
+                    return
+                case '3':
+                    d = input(f'Choose new description for {self.name}: ')
+                    self.description = d
+                    print(f'New description successfully changed to {self.description}\n')
+                    return
+                case '4':
+                    self.print_description()
+                case _:
+                    print("Please enter a valid option!")
+
 class TaskManager:
 
     def __init__(self):
         self._tasks: list[Task] = []
 
-    def add(self, task: Task):
-        self._tasks.append(task)
-        return self
+    def add(self):
+        n = input('Enter name for new task: | 0 - Cancel ')
+        if n == '0':
+            print('Cancelling...\n')
+            return
+        p = safe_priority_input('Enter priority for new task (0-10): ')
+        d = input('Enter description for new task: ')
+        self._tasks.append(Task(n, p, d, datetime.now()))
+        print(f'Added new task {n} successfully!\n')
 
-    def delete(self, task: Task):
-        if task in self._tasks:1
-            self._tasks.remove(task)
-            print(f"{task.name} — удалён")
+    def delete(self):
+        while True:
+            for index, task in enumerate(self._tasks, start=1):
+                print(f'№{index} | {task}')
+            try:
+                option = int(input('Choose Task index to Delete | 0 - for exit: '))
+                if option == 0:
+                    return
+                else:
+                    print(f'Successfully deleted task {self._tasks[option - 1].name}\n')
+                    self._tasks.remove(self._tasks[option-1])
+            except (IndexError, ValueError):
+                print("Please enter a valid index!")
 
     def print_sorted(self, by_priority=True):
         key = 'priority' if by_priority else 'date'
@@ -45,15 +91,18 @@ class TaskManager:
             print(f'№{index} | {task}')
         print()
 
-    def print_description(self, index):
-        task = self._tasks[index]
-        print(textwrap.fill(f'{task.name} -> {task.description}\n', width=40))
-        print()
-
-
     def edit_tasks(self):
-        for index, task in enumerate(self._tasks):
-            print(f'№{index} | {task}')
+        while True:
+            for index, task in enumerate(self._tasks, start=1):
+                print(f'№{index} | {task}')
+            try:
+                option = int(input('Choose Task index to edit | 0 - for exit: '))
+                if option == 0:
+                    return
+                else:
+                    self._tasks[option-1].edit_task()
+            except (IndexError, ValueError):
+                print("Please enter a valid index!")
 
 
 
@@ -62,23 +111,24 @@ class TaskManager:
 
 manager = TaskManager()
 
-task1 = Task("Task 1", 10, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ", datetime.now())
-task2 = Task("Task 2", 12, "Task 3", datetime.now())
-task3 = Task("Task 3", 1, "Task 4", datetime.now())
-task4 = Task("Task 4", 10, "Task 5", datetime.now())
-task5 = Task("Task 5", 5, "Task 6", datetime.now())
-task6 = Task("Task 6", 25, "Task 7", datetime.now())
-task7 = Task("Task 7", 10, "Task 8", datetime.now())
+# task2 = Task("Task 2", 12, "Task 3", datetime.now())
+# task3 = Task("Task 3", 1, "Task 4", datetime.now())
+# task4 = Task("Task 4", 10, "Task 5", datetime.now())
+# task5 = Task("Task 5", 5, "Task 6", datetime.now())
+# task6 = Task("Task 6", 25, "Task 7", datetime.now())
+# task7 = Task("Task 7", 10, "Task 8", datetime.now())
 
-manager.add(task1)
-manager.add(task2)
-manager.add(task3)
-manager.add(task4)
-manager.add(task5)
-manager.add(task6)
-manager.add(task7)
+# manager.add(task1)
+# manager.add(task2)
+# manager.add(task3)
+# manager.add(task4)
+manager.add()
 
-manager.print_description(0)
+manager.delete()
+
+
+
+manager.edit_tasks()
 
 # manager.delete(task1)       # Task 1 — удалён
 # manager.print_sorted()      # сортировка по приоритету
