@@ -13,11 +13,11 @@ def safe_priority_input(prompt):
             print("Please enter a valid value!")
 
 class Task:
-    def __init__(self, name, priority, description, date = datetime.now()):
+    def __init__(self, name, priority, description, date = None):
         self.name = name
         self.priority = priority
         self.description = description
-        self.date = date
+        self.date = date or datetime.now()
 
     def __str__(self):
         date_field = self.date.strftime("%Y/%d/%m %H:%M:%S")
@@ -60,6 +60,10 @@ class TaskManager:
     def __init__(self):
         self._tasks: list[Task] = []
 
+    def is_empty(self):
+        return not self._tasks
+
+
     def add(self):
         n = input('Enter name for new task: | 0 - Cancel ')
         if n == '0':
@@ -91,7 +95,7 @@ class TaskManager:
             print(f'№{index} | {task}')
         print()
 
-    def edit_tasks(self):
+    def edit(self):
         while True:
             for index, task in enumerate(self._tasks, start=1):
                 print(f'№{index} | {task}')
@@ -104,32 +108,9 @@ class TaskManager:
             except (IndexError, ValueError):
                 print("Please enter a valid index!")
 
-
-
-
-
-
-manager = TaskManager()
-
-# task2 = Task("Task 2", 12, "Task 3", datetime.now())
-# task3 = Task("Task 3", 1, "Task 4", datetime.now())
-# task4 = Task("Task 4", 10, "Task 5", datetime.now())
-# task5 = Task("Task 5", 5, "Task 6", datetime.now())
-# task6 = Task("Task 6", 25, "Task 7", datetime.now())
-# task7 = Task("Task 7", 10, "Task 8", datetime.now())
-
-# manager.add(task1)
-# manager.add(task2)
-# manager.add(task3)
-# manager.add(task4)
-manager.add()
-
-manager.delete()
-
-
-
-manager.edit_tasks()
-
-# manager.delete(task1)       # Task 1 — удалён
-# manager.print_sorted()      # сортировка по приоритету
-# manager.print_sorted(False) # сортировка по дате
+    def get_task(self, task_name):
+        for task in self._tasks:
+            if task.name == task_name:
+                return task
+        print(f'Task {task_name} not found!')
+        return None
