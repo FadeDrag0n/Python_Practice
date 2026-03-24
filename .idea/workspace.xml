@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="task and task manager - v1.1">
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="task and task manager - done">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practice/OOP/ToDoList/Task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practice/OOP/ToDoList/Task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practice/OOP/ToDoList/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practice/OOP/ToDoList/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,51 +41,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.1 - Multiples of 3 or 5.executor": "Run",
-    "Python.2 - Even Fibonacci Numbers.executor": "Run",
-    "Python.3 - Largest Prime Factor.executor": "Run",
-    "Python.4 - Largest Palindrome Product.executor": "Run",
-    "Python.5 - Smallest Multiple.executor": "Run",
-    "Python.6 - Sum Square Difference.executor": "Run",
-    "Python.7 - 10 001st Prime.executor": "Run",
-    "Python.Character.executor": "Run",
-    "Python.Class Example.executor": "Run",
-    "Python.Classes.executor": "Run",
-    "Python.Equipment.executor": "Run",
-    "Python.Task.executor": "Run",
-    "Python.block1-2.executor": "Run",
-    "Python.block3-4.executor": "Run",
-    "Python.car.executor": "Run",
-    "Python.electric_car_class.executor": "Run",
-    "Python.find_67.executor": "Run",
-    "Python.lab8_1.executor": "Run",
-    "Python.lab8_2.executor": "Run",
-    "Python.limit_deco.executor": "Run",
-    "Python.limit_deco_ai.executor": "Run",
-    "Python.log_func.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.my_car.executor": "Run",
-    "Python.practice_1.executor": "Run",
-    "Python.practice_3.executor": "Run",
-    "Python.practice_4.executor": "Run",
-    "Python.practice_5.executor": "Run",
-    "Python.practice_6.executor": "Run",
-    "Python.practice_semaphore.executor": "Run",
-    "Python.random_practice.executor": "Run",
-    "Python.server_immitation.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.vova.executor": "Run",
-    "Python.yield practice.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/FadeDragon/Desktop/Python_Practice/Labs/LAB_7"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.1 - Multiples of 3 or 5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2 - Even Fibonacci Numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3 - Largest Prime Factor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4 - Largest Palindrome Product.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5 - Smallest Multiple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6 - Sum Square Difference.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7 - 10 001st Prime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Character.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Class Example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Classes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Equipment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task.executor&quot;: &quot;Run&quot;,
+    &quot;Python.block1-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.block3-4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.car.executor&quot;: &quot;Run&quot;,
+    &quot;Python.electric_car_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_67.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab8_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab8_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.limit_deco.executor&quot;: &quot;Run&quot;,
+    &quot;Python.limit_deco_ai.executor&quot;: &quot;Run&quot;,
+    &quot;Python.log_func.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_car.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practice_semaphore.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server_immitation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vova.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yield practice.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/FadeDragon/Desktop/Python_Practice/Labs/LAB_7&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\FadeDragon\Desktop\Python_Practice\Labs\LAB_7" />
@@ -294,7 +293,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774351356691</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="task and task manager - done">
+      <option name="closed" value="true" />
+      <created>1774354388272</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1774354388272</updated>
+    </task>
+    <task id="LOCAL-00021" summary="task and task manager - done">
+      <option name="closed" value="true" />
+      <created>1774354793241</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1774354793241</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,6 +341,7 @@
     <MESSAGE value="lab 8 - dome" />
     <MESSAGE value="task and task manager - v1" />
     <MESSAGE value="task and task manager - v1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="task and task manager - v1.1" />
+    <MESSAGE value="task and task manager - done" />
+    <option name="LAST_COMMIT_MESSAGE" value="task and task manager - done" />
   </component>
 </project>
