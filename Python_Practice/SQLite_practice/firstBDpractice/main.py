@@ -4,11 +4,11 @@ db = sqlite3.connect('MyDataBase.db')
 
 c = db.cursor() # Created cursor
 
-c.execute("""CREATE TABLE if not EXISTS articles (
-    title text,
-    full_text text,
-    views integer,
-    author text
+c.execute("""CREATE TABLE if not EXISTS testing(
+    title VARCHAR(15),
+    full_text VARCHAR(50),
+    views BIGINT,
+    author VARCHAR(20)
 )""")
 
 #c.execute("INSERT INTO articles VALUES('Google', 'Google description!', 80, 'FadeDragon')") #adding new data
