@@ -1,4 +1,5 @@
 from Task import TaskManager as Tm
+from Task import close_db
 
 if __name__ == "__main__":
 
@@ -16,7 +17,7 @@ if __name__ == "__main__":
 
     while True:
         print("|------------------------------- ToDo List Menu -------------------------------|")
-        choose_option = input("1 - Add new task | 2 - delete task | 3 - edit task | 4 - view tasks | 5 - exit ")
+        choose_option = input("1 - Add new task | 2 - Delete task | 3 - Edit task | 4 - View tasks | 5 - Save & exit ")
         match choose_option:
             case '1':
                 manager.add()
@@ -33,20 +34,19 @@ if __name__ == "__main__":
                 try:
                     sort_option = int(input("Enter sort option: | 1 - priority | 0 - date "))
                     manager.print_sorted(bool(sort_option))
-                    name_option = input("Enter a name to see description: | 0 - Exit ")
-                    if name_option == '0':
+                    id_option = int(input("Enter ID to see description: | 0 - Exit "))
+                    if id_option == 0:
                         print('\n')
                         continue
-                    task = manager.get_task(name_option)
+                    task = manager.get_task(id_option)
                     if task:
                         task.print_description()
-                    else:
-                        print(f"Sorry, {name_option} is not in your tasks!\n")
                 except ValueError:
                     print("Invalid option!")
 
             case '5':
                 print('Goodbye!')
+                close_db()
                 break
 
             case _:
