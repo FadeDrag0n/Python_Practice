@@ -1,4 +1,4 @@
 import math
 
 n, m, c = map(int, input().split())
-print(math.ceil(n * m / c))
+print(math.ceil(n * m / c)) #12

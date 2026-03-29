@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="task and task manager - v1.1">
-      <change beforePath="$PROJECT_DIR$/.idea/Python_Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="OLIMIAD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +51,12 @@
     &quot;Python.5 - Smallest Multiple.executor&quot;: &quot;Run&quot;,
     &quot;Python.6 - Sum Square Difference.executor&quot;: &quot;Run&quot;,
     &quot;Python.7 - 10 001st Prime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.A. Велика доставка.executor&quot;: &quot;Run&quot;,
+    &quot;Python.B. Кораблі та вантаж.executor&quot;: &quot;Run&quot;,
     &quot;Python.Character.executor&quot;: &quot;Run&quot;,
     &quot;Python.Class Example.executor&quot;: &quot;Run&quot;,
     &quot;Python.Classes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.E. Antiques.executor&quot;: &quot;Run&quot;,
     &quot;Python.Equipment.executor&quot;: &quot;Run&quot;,
     &quot;Python.Task.executor&quot;: &quot;Run&quot;,
     &quot;Python.block1-2.executor&quot;: &quot;Run&quot;,
@@ -87,12 +88,13 @@
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/FadeDragon/Desktop/Python_Practice/Labs/LAB_7&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/FadeDragon/Downloads&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FadeDragon\Downloads" />
       <recent name="C:\Users\FadeDragon\Desktop\Python_Practice\Labs\LAB_7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -308,7 +310,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774366993267</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Merge branch 'main' of https://github.com/FadeDrag0n/Python_Practice&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1774634750534</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1774634750534</updated>
+    </task>
+    <task id="LOCAL-00022" summary="OLIMIAD">
+      <option name="closed" value="true" />
+      <created>1774707673949</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1774707673949</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,6 +361,7 @@
     <MESSAGE value="lab 8 - dome" />
     <MESSAGE value="task and task manager - v1" />
     <MESSAGE value="task and task manager - v1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="task and task manager - v1.1" />
+    <MESSAGE value="OLIMIAD" />
+    <option name="LAST_COMMIT_MESSAGE" value="OLIMIAD" />
   </component>
 </project>
