@@ -1,9 +1,12 @@
-def prime_generator():
-    num = 0
+from typing import Generator
+
+def prime_generator() -> Generator[int, None, None]:
+    yield 2
+    num = 3
     while True:
-        num += 1
         if is_prime(num):
             yield num
+        num += 2
 
 
 def is_prime(n: int) -> bool:
