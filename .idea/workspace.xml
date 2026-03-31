@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="os practice 2 - done">
-      <change afterPath="$PROJECT_DIR$/Labs/LAB_9/main.py" afterDir="false" />
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="LAB 9 - done">
+      <change afterPath="$PROJECT_DIR$/Python_Practice/Async_Practice/generators/dragon_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practice/OOP/31.03.2026/NightWatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practice/base_python/debt_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practice/deco_practice/cipher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practice/deco_practice/testing ord/chr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,10 +64,15 @@
     "Python.Classes.executor": "Run",
     "Python.E. Antiques.executor": "Run",
     "Python.Equipment.executor": "Run",
+    "Python.NightWatch.executor": "Run",
     "Python.Task.executor": "Run",
     "Python.block1-2.executor": "Run",
     "Python.block3-4.executor": "Run",
     "Python.car.executor": "Run",
+    "Python.chr.executor": "Run",
+    "Python.cipher.executor": "Run",
+    "Python.debt_register.executor": "Run",
+    "Python.dragon_generator.executor": "Run",
     "Python.electric_car_class.executor": "Run",
     "Python.find_67.executor": "Run",
     "Python.lab8_1.executor": "Run",
@@ -372,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774955904115</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="LAB 9 - done">
+      <option name="closed" value="true" />
+      <created>1774961028436</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1774961028436</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,6 +429,7 @@
     <MESSAGE value="bank descriptor - done" />
     <MESSAGE value="os practice - done" />
     <MESSAGE value="os practice 2 - done" />
-    <option name="LAST_COMMIT_MESSAGE" value="os practice 2 - done" />
+    <MESSAGE value="LAB 9 - done" />
+    <option name="LAST_COMMIT_MESSAGE" value="LAB 9 - done" />
   </component>
 </project>
