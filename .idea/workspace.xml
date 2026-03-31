@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="os practice - done">
-      <change afterPath="$PROJECT_DIR$/Python_Practice/os_practice/test.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Practice/os_practice/os_practice2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Practice/os_practice/os_practice2.py" afterDir="false" />
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="os practice 2 - done">
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_9/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774955426065</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="os practice 2 - done">
+      <option name="closed" value="true" />
+      <created>1774955904115</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1774955904115</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,6 +411,7 @@
     <MESSAGE value="prime generator and words counter - done" />
     <MESSAGE value="bank descriptor - done" />
     <MESSAGE value="os practice - done" />
-    <option name="LAST_COMMIT_MESSAGE" value="os practice - done" />
+    <MESSAGE value="os practice 2 - done" />
+    <option name="LAST_COMMIT_MESSAGE" value="os practice 2 - done" />
   </component>
 </project>
