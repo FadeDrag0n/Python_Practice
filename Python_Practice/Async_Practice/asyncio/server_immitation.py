@@ -57,7 +57,6 @@ async def dashboard(stats, interval=2):
 async def main():
     servers = [{"server_id": i, "delay": random.uniform(0.1, 1.5)} for i in range(10)]
 
-    # словарь вместо глобальных переменных
     stats = {"healthy": 0, "failed": 0, "dead": 0}
 
     dash_task = asyncio.create_task(dashboard(stats, interval=2))
