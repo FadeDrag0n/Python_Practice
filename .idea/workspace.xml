@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="Started work with inheritence">
-      <change afterPath="$PROJECT_DIR$/Labs/LAB_11/MRO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/LAB_11/abstract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/LAB_11/main.py" afterDir="false" />
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="LB11 - 1-4 done">
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_11/overload.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/LAB_11/MRO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/LAB_11/MRO.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +83,7 @@
     "Python.my_car.executor": "Run",
     "Python.os_practice1.executor": "Run",
     "Python.os_practice2.executor": "Run",
+    "Python.overload.executor": "Run",
     "Python.practice_1.executor": "Run",
     "Python.practice_3.executor": "Run",
     "Python.practice_4.executor": "Run",
@@ -414,7 +414,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775494244630</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="LB11 - 1-4 done">
+      <option name="closed" value="true" />
+      <created>1775576572641</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1775576572641</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +440,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LR7 - done" />
     <MESSAGE value="9.1, 9.2, 9.3 - done&#10;README.md updated" />
     <MESSAGE value="9.4 9.5 - done" />
     <MESSAGE value="9.6 - 9.8 - done" />
@@ -457,6 +464,7 @@
     <MESSAGE value="python practice" />
     <MESSAGE value="LAB 10 - DONE" />
     <MESSAGE value="Started work with inheritence" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started work with inheritence" />
+    <MESSAGE value="LB11 - 1-4 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="LB11 - 1-4 done" />
   </component>
 </project>
