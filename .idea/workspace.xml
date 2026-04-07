@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="LAB 10 - DONE">
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="Started work with inheritence">
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_11/MRO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_11/abstract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_11/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,68 +43,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.1 - Multiples of 3 or 5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.123.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2 - Even Fibonacci Numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3 - Largest Prime Factor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4 - Largest Palindrome Product.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5 - Smallest Multiple.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6 - Sum Square Difference.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7 - 10 001st Prime.executor&quot;: &quot;Run&quot;,
-    &quot;Python.A. Велика доставка.executor&quot;: &quot;Run&quot;,
-    &quot;Python.B. Кораблі та вантаж.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BankAccount.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Character.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Class Example.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Classes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.E. Antiques.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Equipment.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NightWatch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task.executor&quot;: &quot;Run&quot;,
-    &quot;Python.block1-2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.block3-4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.car.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chr.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cipher.executor&quot;: &quot;Run&quot;,
-    &quot;Python.debt_register.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dragon_generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.electric_car_class.executor&quot;: &quot;Run&quot;,
-    &quot;Python.find_67.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lab8_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lab8_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.limit_deco.executor&quot;: &quot;Run&quot;,
-    &quot;Python.limit_deco_ai.executor&quot;: &quot;Run&quot;,
-    &quot;Python.log_func.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.my_car.executor&quot;: &quot;Run&quot;,
-    &quot;Python.os_practice1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.os_practice2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice_semaphore.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prime_generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.server_immitation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vova.executor&quot;: &quot;Run&quot;,
-    &quot;Python.words_counter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.yield practice.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/FadeDragon/Desktop/Python_Practice/Labs&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.1 - Multiples of 3 or 5.executor": "Run",
+    "Python.123.executor": "Run",
+    "Python.2 - Even Fibonacci Numbers.executor": "Run",
+    "Python.3 - Largest Prime Factor.executor": "Run",
+    "Python.4 - Largest Palindrome Product.executor": "Run",
+    "Python.5 - Smallest Multiple.executor": "Run",
+    "Python.6 - Sum Square Difference.executor": "Run",
+    "Python.7 - 10 001st Prime.executor": "Run",
+    "Python.A. Велика доставка.executor": "Run",
+    "Python.B. Кораблі та вантаж.executor": "Run",
+    "Python.BankAccount.executor": "Run",
+    "Python.Character.executor": "Run",
+    "Python.Class Example.executor": "Run",
+    "Python.Classes.executor": "Run",
+    "Python.E. Antiques.executor": "Run",
+    "Python.Equipment.executor": "Run",
+    "Python.MRO.executor": "Run",
+    "Python.NightWatch.executor": "Run",
+    "Python.Task.executor": "Run",
+    "Python.abstract.executor": "Run",
+    "Python.block1-2.executor": "Run",
+    "Python.block3-4.executor": "Run",
+    "Python.car.executor": "Run",
+    "Python.chr.executor": "Run",
+    "Python.cipher.executor": "Run",
+    "Python.debt_register.executor": "Run",
+    "Python.dragon_generator.executor": "Run",
+    "Python.electric_car_class.executor": "Run",
+    "Python.find_67.executor": "Run",
+    "Python.lab8_1.executor": "Run",
+    "Python.lab8_2.executor": "Run",
+    "Python.limit_deco.executor": "Run",
+    "Python.limit_deco_ai.executor": "Run",
+    "Python.log_func.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.my_car.executor": "Run",
+    "Python.os_practice1.executor": "Run",
+    "Python.os_practice2.executor": "Run",
+    "Python.practice_1.executor": "Run",
+    "Python.practice_3.executor": "Run",
+    "Python.practice_4.executor": "Run",
+    "Python.practice_5.executor": "Run",
+    "Python.practice_6.executor": "Run",
+    "Python.practice_semaphore.executor": "Run",
+    "Python.prime_generator.executor": "Run",
+    "Python.random_practice.executor": "Run",
+    "Python.server_immitation.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.vova.executor": "Run",
+    "Python.words_counter.executor": "Run",
+    "Python.yield practice.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/FadeDragon/Desktop/Python_Practice/Labs",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\FadeDragon\Desktop\Python_Practice\Labs" />
@@ -401,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775403084340</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Started work with inheritence">
+      <option name="closed" value="true" />
+      <created>1775494244630</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1775494244630</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +432,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="readme first version" />
     <MESSAGE value="LR7 - done" />
     <MESSAGE value="9.1, 9.2, 9.3 - done&#10;README.md updated" />
     <MESSAGE value="9.4 9.5 - done" />
@@ -444,6 +456,7 @@
     <MESSAGE value="LAB 9 - done" />
     <MESSAGE value="python practice" />
     <MESSAGE value="LAB 10 - DONE" />
-    <option name="LAST_COMMIT_MESSAGE" value="LAB 10 - DONE" />
+    <MESSAGE value="Started work with inheritence" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started work with inheritence" />
   </component>
 </project>
