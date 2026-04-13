@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="second task pack done">
-      <change afterPath="$PROJECT_DIR$/Project_Euler/1-100/8 - Largest Product in a Series.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project_Euler/1-100/9 - Special Pythagorean Triplet.py" afterDir="false" />
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="euler 8, 9 - done">
+      <change afterPath="$PROJECT_DIR$/Labs/LAB_12/first_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +75,7 @@
     "Python.dragon_generator.executor": "Run",
     "Python.electric_car_class.executor": "Run",
     "Python.find_67.executor": "Run",
+    "Python.first_file.executor": "Run",
     "Python.lab8_1.executor": "Run",
     "Python.lab8_2.executor": "Run",
     "Python.limit_deco.executor": "Run",
@@ -459,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775668556913</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="euler 8, 9 - done">
+      <option name="closed" value="true" />
+      <created>1775754574435</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1775754574435</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project Euler 1-3 - done" />
     <MESSAGE value="OOP RPG - done" />
     <MESSAGE value="Euler 4 - done" />
     <MESSAGE value="Euler 5 - done" />
@@ -502,6 +509,7 @@
     <MESSAGE value="python practice" />
     <MESSAGE value="first task pack done" />
     <MESSAGE value="second task pack done" />
-    <option name="LAST_COMMIT_MESSAGE" value="second task pack done" />
+    <MESSAGE value="euler 8, 9 - done" />
+    <option name="LAST_COMMIT_MESSAGE" value="euler 8, 9 - done" />
   </component>
 </project>
