@@ -6,15 +6,14 @@ def move_item():
         index = selection[0]
         value = listbox1.get(index)
 
-        listbox1.delete(index)      # видаляємо з першого
-        listbox2.insert(tk.END, value)  # додаємо в другий
+        listbox1.delete(index)
+        listbox2.insert(tk.END, value)
 
 def change_color():
     color = color_var.get()
     root.config(bg=color)
 
 root = tk.Tk()
-root.title("Перенесення елементів")
 
 data1 = ["Ivan", "Petro", "Oleg"]
 data2 = ["Mariya", "Ann"]
