@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="LR16 - done">
-      <change afterPath="$PROJECT_DIR$/Project_Euler/1-100/10 - Summation of Primes.py" afterDir="false" />
+    <list default="true" id="74f64f2d-6dc4-4646-840f-0f1f6677e477" name="Changes" comment="euler 10 - done">
+      <change afterPath="$PROJECT_DIR$/Python_Practice/another/04 08 2026/anograms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practice/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Practice/tests/something_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/LAB_16/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/LAB_16/main2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +69,7 @@
     "Python.NightWatch.executor": "Run",
     "Python.Task.executor": "Run",
     "Python.abstract.executor": "Run",
+    "Python.anograms.executor": "Run",
     "Python.block1-2.executor": "Run",
     "Python.block1.executor": "Run",
     "Python.block2.executor": "Run",
@@ -109,6 +111,7 @@
     "Python.recursion.executor": "Run",
     "Python.server_immitation.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.test1.executor": "Run",
     "Python.vova.executor": "Run",
     "Python.words_counter.executor": "Run",
     "Python.yield practice.executor": "Run",
@@ -526,7 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777382736256</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="euler 10 - done">
+      <option name="closed" value="true" />
+      <created>1778072943235</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1778072943235</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="asyncio practice" />
     <MESSAGE value="dec practice" />
     <MESSAGE value="lab 8 - dome" />
     <MESSAGE value="task and task manager - v1" />
@@ -569,6 +579,7 @@
     <MESSAGE value="lr14" />
     <MESSAGE value="lr15 done" />
     <MESSAGE value="LR16 - done" />
-    <option name="LAST_COMMIT_MESSAGE" value="LR16 - done" />
+    <MESSAGE value="euler 10 - done" />
+    <option name="LAST_COMMIT_MESSAGE" value="euler 10 - done" />
   </component>
 </project>
